@@ -57,4 +57,4 @@ Familiarize yourself with the
 
 * For the Support & Feedback on general Globalize questions, use the [Globalize GitHub issue tracker](https://github.com/jquery/globalize/issues)
 * For questions regarding DevExtreme libraries and JavaScript API, use [DevExpress Support Center](https://www.devexpress.com/Support/Center)
-* For DevExtreme Globalize 0.1 integration bugs, questions and suggestions, use the [GitHub issue tracker](https://github.com/DevExpress/DevExtreme-Globalize-0-1/issues)
+* For DevExtreme Globalize 0.1 integration bugs, questions and suggestions, use the [GitHub issue tracker](https://github.com/DevExpress/DevExtreme-Globalize-0.1/issues)
