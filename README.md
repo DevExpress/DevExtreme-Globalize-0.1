@@ -7,7 +7,7 @@ DevExtreme 16.1 does not support Globalize 0.x out of the box anymore. There is 
 But Globalize 1 has some breaking changes (see [Migrating from Globalize 0.x](https://github.com/jquery/globalize/blob/master/README.md#migrating-from-globalize-0x)) that need to be considered after upgrading the DevExtreme project from a previous version.
 
 We recommend using this integration as a temporary solution to postpone updating the Globalize version in your project.
-Some of the new features in DevExtreme 16.1 are [not supported](#falling-back) with current integration.
+Some of the new features in DevExtreme 16.1 are [not supported](#fall-back) with current integration.
 
 ## Getting started
 
