@@ -19,11 +19,11 @@ Some of the new features in DevExtreme 16.1 are [not supported](#falling-back) w
 <script type="text/javascript" src="js/dx.globalize-0.1.min.js"></script>
 ```
 
-## Falling back
+## Fall Back
 
-Currency formatting in Globalize 0.1 uses the current culture to define a currency symbol. So some new DevExtreme functionality can not be provided with this integration:
- * `currency` field of a `format` object (see [Object Structures](http://js.corp.devexpress.com/Documentation/ApiReference/Common/Object_Structures/format/?version=16_1#currency)) will be ignored
- * `defaultCurrency` field of a global configuration object (see [DevExpress.config](http://js.devexpress.com/Documentation/ApiReference/Common/utils/?version=16_1#config)) will be ignored too
+The currency formatting in Globalize 0.1 uses the current culture to define the currency symbol. So, the following new DevExtreme features do not support Globalize 0.1.
+ * The `currency` field of a `format` object (see [Object Structures](http://js.corp.devexpress.com/Documentation/ApiReference/Common/Object_Structures/format/?version=16_1#currency))
+ * The `defaultCurrency` field of a global configuration object (see [DevExpress.config](http://js.devexpress.com/Documentation/ApiReference/Common/utils/?version=16_1#config))
 
 ## Development
 
