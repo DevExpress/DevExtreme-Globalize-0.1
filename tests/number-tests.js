@@ -70,8 +70,15 @@
             assert.equal(numberLocalization.parse("!437", { parser: function(text) { return Number(text.substr(1)); } }), 437);
         });
         
+        var expectedXmlCurrencyFormats = {
+            de: "#,##0{0}\\ €_);-#,##0{0}\\ €",
+            en: "$#,##0{0}_);\\($#,##0{0}\\)",
+            ja: "¥#,##0{0}_);-¥#,##0{0}",
+            ru: "#,##0{0}р._);-#,##0{0}р."
+        }
+        
         QUnit.test("getOpenXmlCurrencyFormat", function(assert) {
-            assert.equal(numberLocalization.getOpenXmlCurrencyFormat(), "$#,##0{0}_);\\($#,##0{0}\\)");
+            assert.equal(numberLocalization.getOpenXmlCurrencyFormat(), expectedXmlCurrencyFormats[culture]);
         });
     });
 }(QUnit, jQuery, DevExpress, Globalize));
