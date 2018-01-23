@@ -1,4 +1,6 @@
-# DevExtreme integration with Globalize 0.1
+# ⛔️ DEPRECATED DevExtreme integration with Globalize 0.1
+
+**This integration is no longer supported. Please read the [actual topic](https://js.devexpress.com/Documentation/Guide/Widgets/Common/UI_Widgets/Localization/) about localization in DevExtreme.**
 
 Integrates [Globalize 0.1](https://github.com/jquery/globalize/tree/v0.1.1) with [DevExtreme 16.1](http://js.devexpress.com/)
 
